@@ -1,16 +1,27 @@
-using System;
+using System.Collections.Generic;
+using ProjetoChamados.Models;
 
-namespace ProjetoChamados.Models
+namespace ProjetoChamados.Services
 {
-    public class HistoricoChamado
+    public class ChamadoService
     {
-        public DateTime Data { get; private set; }
-        public string Descricao { get; private set; }
+        private List<Chamado> chamados = new List<Chamado>();
 
-        public HistoricoChamado(string descricao)
+        public void AbrirChamado(Chamado chamado)
         {
-            Data = DateTime.Now;
-            Descricao = descricao;
+            chamados.Add(chamado);
+        }
+
+        public List<Chamado> ListarPorStatus(string status)
+        {
+            return chamados.FindAll(c => c.Status == status);
+        }
+
+        public List<Chamado> ListarPorTecnico(Tecnico tecnico)
+        {
+            return chamados.FindAll(c => c.Tecnico == tecnico);
         }
     }
 }
+
+
