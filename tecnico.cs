@@ -1,4 +1,4 @@
-namespace ProjetoChamados.Models
+namespace sistema-basico-de-atendimento.Models
 {
     public class Tecnico : Usuario
     {
@@ -11,3 +11,4 @@ namespace ProjetoChamados.Models
         }
     }
 }
+
