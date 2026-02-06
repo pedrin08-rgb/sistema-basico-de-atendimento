@@ -1,21 +1,21 @@
-using ProjetoChamados.Models;
-using ProjetoChamados.Services;
-
-class Program
+static void Main()
 {
-    static void Main()
-    {
-        Cliente cliente = new Cliente(1, "João", "joao@email.com", "99999-9999");
-        Tecnico tecnico = new Tecnico(1, "Maria", "maria@email.com", "Redes");
-        Categoria categoria = new Categoria(1, "Internet");
+    Console.WriteLine("Sistema de chamados iniciado com sucesso!");
 
-        Chamado chamado = new Chamado(1, "Sem internet", "Internet caiu", cliente, categoria);
+    Cliente cliente = new Cliente(1, "João", "joao@email.com", "99999-9999");
+    Tecnico tecnico = new Tecnico(1, "Maria", "maria@email.com", "Redes");
+    Categoria categoria = new Categoria(1, "Internet");
 
-        ChamadoService service = new ChamadoService();
-        service.AbrirChamado(chamado);
+    Chamado chamado = new Chamado(1, "Sem internet", "Internet caiu", cliente, categoria);
 
-        chamado.AtribuirTecnico(tecnico);
-        chamado.Encerrar();
-    }
+    ChamadoService service = new ChamadoService();
+    service.AbrirChamado(chamado);
+
+    chamado.AtribuirTecnico(tecnico);
+    chamado.Encerrar();
+
+    Console.WriteLine("Chamado encerrado com sucesso!");
 }
+
+
 
