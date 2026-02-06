@@ -1,6 +1,6 @@
 using System;
 
-namespace sistema-basico-de-atendimento.Models
+namespace SistemaBasicoDeAtendimento.Models
 {
     public class HistoricoChamado
     {
@@ -14,4 +14,5 @@ namespace sistema-basico-de-atendimento.Models
         }
     }
 }
+
 
