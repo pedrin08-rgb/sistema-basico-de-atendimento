@@ -1,9 +1,10 @@
-using ProjetoChamados.Models;
+using sistema-basico-de-atendimento.Models;
 
-namespace ProjetoChamados.Interfaces
+namespace sistema-basico-de-atendimento.Interfaces
 {
     public interface IAtribuivel
     {
         void AtribuirTecnico(Tecnico tecnico);
     }
 }
+
