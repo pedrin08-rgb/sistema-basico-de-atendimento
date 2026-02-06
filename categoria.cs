@@ -1,4 +1,4 @@
-namespace sistema-basico-de-atendimento.Models
+namespace SistemaBasicoDeAtendimento.Models
 {
     public class Categoria
     {
@@ -12,4 +12,5 @@ namespace sistema-basico-de-atendimento.Models
         }
     }
 }
+
 
