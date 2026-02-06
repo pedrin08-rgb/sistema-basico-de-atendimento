@@ -1,8 +1,9 @@
-namespace sistema-basico-de-atendiment.Interfaces
+namespace SistemaBasicoDeAtendimento.Interfaces
 {
     public interface IEncerravel
     {
         void Encerrar();
     }
 }
+
 
