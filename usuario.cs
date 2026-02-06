@@ -1,4 +1,4 @@
-namespace ProjetoChamados.Models
+namespace sistema-basico-de-atendimento.Models
 {
     public abstract class Usuario
     {
@@ -14,3 +14,4 @@ namespace ProjetoChamados.Models
         }
     }
 }
+
