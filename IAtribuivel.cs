@@ -1,10 +1,11 @@
-using sistema-basico-de-atendimento.Models;
+using SistemaBasicoDeAtendimento.Models;
 
-namespace sistema-basico-de-atendimento.Interfaces
+namespace SistemaBasicoDeAtendimento.Interfaces
 {
     public interface IAtribuivel
     {
         void AtribuirTecnico(Tecnico tecnico);
     }
 }
+
 
