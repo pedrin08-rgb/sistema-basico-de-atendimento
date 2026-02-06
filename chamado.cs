@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using sistema-basico-de-atendimento.Interfaces;
+using SistemaBasicoDeAtendimento.Interfaces;
 
-namespace sistema-basico-de-atendimento.Models
+namespace SistemaBasicoDeAtendimento.Models
 {
     public class Chamado : IAtribuivel, IEncerravel
     {
@@ -43,5 +43,6 @@ namespace sistema-basico-de-atendimento.Models
         }
     }
 }
+
 
 
