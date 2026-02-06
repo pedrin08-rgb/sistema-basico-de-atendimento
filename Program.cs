@@ -16,18 +16,18 @@ namespace SistemaBasicoDeAtendimento
             Chamado chamado = new Chamado(1, "Sem internet", "Internet caiu", cliente, categoria);
 
             ChamadoService service = new ChamadoService();
-            console.writeline($"cliente: {cliente.Nome}";
-            console.writeline($"assunto: {chamado.Titulo}");        
+            console.Writeline($"cliente: {cliente.Nome}";
+            console.Writeline($"assunto: {chamado.Titulo}");        
             service.AbrirChamado(chamado);
-            console.writeline("chamado aberto com sucesso!);
+            console.writeline("chamado aberto com sucesso!");
                               
             chamado.AtribuirTecnico(tecnico);
-            console.writeline($"tecnico: {tecnico.Nome} atribuido ao chamado")
+            console.writeline($"tecnico: {tecnico.Nome} atribuido ao chamado");
 
                               
             chamado.Encerrar();
 
-            Console.WriteLine("Chamado encerrado com sucesso!");
+            Console.WriteLine("Chamado encerrado");
         }
     }
 }
