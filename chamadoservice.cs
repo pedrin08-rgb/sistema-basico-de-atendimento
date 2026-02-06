@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using sistema-basico-de-atendimento.Models;
+using SistemaBasicoDeAtendimento.Models;
 
-namespace sistema-basico-de-atendimento.Services
+namespace SistemaBasicoDeAtendimento.Services
 {
     public class ChamadoService
     {
@@ -23,6 +23,7 @@ namespace sistema-basico-de-atendimento.Services
         }
     }
 }
+
 
 
 
