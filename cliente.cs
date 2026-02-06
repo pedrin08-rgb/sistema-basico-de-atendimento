@@ -1,4 +1,4 @@
-namespace sistema-basico-de-atendimento.Models
+namespace SistemaBasicoDeAtendimento.Models
 {
     public class Cliente : Usuario
     {
@@ -11,4 +11,5 @@ namespace sistema-basico-de-atendimento.Models
         }
     }
 }
+
 
