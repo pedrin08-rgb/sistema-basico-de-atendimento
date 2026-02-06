@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using ProjetoChamados.Models;
+using sistema-basico-de-atendimento.Models;
 
-namespace ProjetoChamados.Services
+namespace sistema-basico-de-atendimento.Services
 {
     public class ChamadoService
     {
@@ -23,5 +23,6 @@ namespace ProjetoChamados.Services
         }
     }
 }
+
 
 
