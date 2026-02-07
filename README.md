@@ -11,63 +11,7 @@ O foco do projeto é a aplicação correta dos conceitos de Orientação a Objet
 
 ## 📐 Diagrama de Classes UML
 
-+----------------------+
-| <<abstract>> Usuario |
-+----------------------+
-| - id                 |
-| - nome               |
-| - email              |
-+----------------------+
-| + getNome()          |
-| + getEmail()         |
-+----------------------+
-          ▲
-          |
-  ----------------
-  |              |
-+---------+  +-----------+
-| Cliente |  | Tecnico   |
-+---------+  +-----------+
-| telefone|  | especial. |
-+---------+  +-----------+
-
-+---------------------+
-|      Categoria      |
-+---------------------+
-| - id                |
-| - nome              |
-+---------------------+
-
-+---------------------+
-|   HistoricoChamado  |
-+---------------------+
-| - data              |
-| - descricao         |
-+---------------------+
-
-+--------------------------------------+
-|              Chamado                 |
-+--------------------------------------+
-| - id                                 |
-| - titulo                             |
-| - descricao                          |
-| - status                             |
-| - cliente : Cliente                  |
-| - tecnico : Tecnico                  |
-| - categoria : Categoria              |
-| - historico : List<HistoricoChamado> |
-+--------------------------------------+
-| + atribuirTecnico()                  |
-| + encerrar()                         |
-+--------------------------------------+
-
-<<interface>> IAtribuivel
-+ atribuirTecnico()
-
-<<interface>> IEncerravel
-+ encerrar()
-
----
+![image alt](https://github.com/pedrin08-rgb/sistema-basico-de-atendimento/blob/f9409cb1ccb3846ba243cf33cb3e690ce63721b1/Screenshot_20260206_211823_Canva.jpg)
 
 ## 🧠 Conceitos de Orientação a Objetos Utilizados
 
@@ -106,14 +50,16 @@ O foco do projeto é a aplicação correta dos conceitos de Orientação a Objet
 ---
 
 ## 🛠 Tecnologias Utilizadas
-- Linguagem: c#
-- Paradigma: Orientação a Objetos
-- Estrutura de dados: Listas
+- C#
+-.NET
+-Programação Orientada a Objetos
+-UML
 
 ---
 
 ## 👨‍🎓 Aluno
 - Reginaldo Pedro
+
 
 
 
