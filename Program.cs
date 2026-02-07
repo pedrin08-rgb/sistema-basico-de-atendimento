@@ -28,6 +28,10 @@ namespace SistemaBasicoDeAtendimento
             chamado.Encerrar();
 
             Console.WriteLine("Chamado encerrado");
+            Console.WriteLine("\n--- HISTÓRICO DO CHAMADO ---");
+            Console.WriteLine($"{DateTime.Now}: Chamado criado por {cliente.Nome}");
+            Console.WriteLine($"{DateTime.Now}: Técnico {tecnico.Nome} assumiu o caso");
+            Console.WriteLine($"{DateTime.Now}: Resolução finalizada.");
         }
     }
 }
